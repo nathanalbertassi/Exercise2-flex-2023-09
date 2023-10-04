@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="css/css.css">
+
+    <title>ANAVITÓRIA - Flex elements - Nathan Albertassi</title>
+
+</head>
+<body>
+
+    
+    <header class="flexHeader" id="mainHeader">
+            <nav class="container">
+                <a href="index.html">home <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+                <a href="tour.html">tour <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+                <a href="index.html" class="main-logo">ANAVITÓRIA</a>
+                <a href="login.html">Sign in <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+                <a href="merch.html">merch <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+            </nav>
+            <nav class="container navMobile">
+                <a href="login.html">Sign in <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+                <a href="tour.html">Tour <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+                <a href="merch.html">Merch <span class="color1"></span><span class="color2"></span><span class="color3"></span><span class="color4"></span><span class="color5"></span> </a>
+            </nav>
+    </header>
+
+    <section class="tourPage">
+      <div class="container">
+        <div class="columns equal-columns">
+          <div class="col">
+
+              <h1 class="title">Tour <span>COR</span></h1>
+              <p class="intro-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et itaque consequatur quis consectetur iste quia rerum dolor iusto. Exercitationem necessitatibus veniam magni assumenda, dolorum harum! Voluptate provident obcaecati tenetur!
+                Voluptatum ipsam, assumenda itaque reprehenderit perferendis doloremque aliquam deleniti numquam. 
+                <br><br>
+
+              </p>
+            
+            <div class="responsive-video">
+              <video class="responsive-iframe" controls poster="img/video2.png">
+                <source src="video/anavitoria-explodir-video.mp4" type="video/mp4">
+                <source src="video/anavitoria-explodir-video.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </section>
+
+    <section class="TourdatesBlue">
+    <div class="container">
+        <div class="columns equal-columns">
+          <div class="col col-1">
+            <div class="fixedContent">
+              <h2 class="main-title white-text align-right">Tour dates</h2>
+              <p class="intro-text white-text align-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione fugiat atque libero, unde consequuntur aspernatur?</p>
+            </div>
+          </div>
+          <div class="col col-2">
+
+            <ul class="list-tour">
+              <li>
+                <h3><span>19 SEPT</span> - NEW YORK, NY</h3>
+                <p>MUSIC HALL OF WILLIAMSBURG</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>20 SEPT</span> - BOSTON, MA</h3>
+                <p>THE SINCLAIR</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>19 SEPT</span> - NEW YORK, NY</h3>
+                <p>US TOUR | MUSIC HALL OF WILLIAMSBURG</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>23 SEPT</span> - WASHINGTON, DC</h3>
+                <p>THE KENNEDY CENTER</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>24 SEPT</span> - CHICAGO, IL</h3>
+                <p>SPACE</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>26 SEPT</span> - LOS ANGELES, CA</h3>
+                <p>TROUBADOUR</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>29 SEPT</span> - ORLANDO, FL</h3>
+                <p>HOUSE OF BLUES</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+              <li>
+                <h3><span>30 SEPT</span> - FORT LAUDERDALE, FL</h3>
+                <p>AMATURO THEATER - BROWARD CENTER</p>
+                <a href="login.html"><span>get tickets</span></a>
+              </li>
+            </ul>
+
+
+          </div>
+      
+        </div>
+      
+      </div>
+  </section>
+
+
+        <footer class="footer">
+          <div class="container">
+            <div class="columns equal-columns">
+              <div class="col">
+      
+                  <h3 class="logo">ANAVITÓRIA</h3>
+                  <p class="intro-text white-text">© 2023 Anavitória. All rights reserved. Nathan Albertassi</p>
+                
+                
+              </div>
+            </div>
+          </div>
+          </footer>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js" ></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js" ></script>
+    
+    
+    <script>
+    
+    ScrollTrigger.create({
+      trigger: ".TourdatesBlue",
+      start: "40% center",
+      // start: 0,
+      // end: 200,
+      // markers: true,
+      scrub: 1,
+      onEnter: () => {
+        document.querySelector("#mainHeader").classList.add("headerBlue");
+      },
+      onLeaveBack: () => {
+        document.querySelector("#mainHeader").classList.remove("headerBlue");
+      }
+    });
+    
+    
+    </script>
+          
+
+</body>
+</html>
